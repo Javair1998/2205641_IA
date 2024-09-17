@@ -1,0 +1,124 @@
+primary.css
+body {font-family: Arial, Helvetica, sans-serif;
+    background-color: #E0F7FA;
+    color: #0d47a1;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #0277bd;
+    padding: 10;
+}
+nav ul{list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li a {
+    display: align;
+    margin-left: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18xp;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+}
+nav ul li a:hover{
+    background-color: #01579b;
+    text-align: center;
+    margin-bottom: 20px;
+}
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 4px solid #0277bd;
+    transform: transform 0.3s ease;
+}
+img:hover {
+    transform: scale(1.1);
+}
+section {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0.1);
+    padding: 20px;
+    margin: 20px;
+}
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+a {
+    color: #0288d1;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #0277bd;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+footer a {
+    color: #e1f5fe;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.skill-container {
+    background-color: #bbdefb;
+    border-radius: 10px;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+.skill{
+    height: 20px;
+    background-color: #0288d1;
+    border-radius: 10px;
+}
+.skill.html {
+    width: 80%
+}
+.skill.python {
+    width: 75%;
+}
+.skill.c {
+    width: 60%;
+}
+.skill.csharp {
+    width: 70;
+}
+.skill.cpp {
+    width: 65%;
+}
+.skill.javascript {
+    width: 85%;
+}
+.skill.css {
+    width: 90%;
+}
+.skill.sql{
+    width: 70%;
+}
+
+@media screen and {max-width: 768px;) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+    
+}
